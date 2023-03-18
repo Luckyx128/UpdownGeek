@@ -22,7 +22,7 @@
         </head>
         <body>
             <header>
-                <img class="logo" src="/img/Logo.png" alt="">
+                <img class="logo" src="/img/Logo2.png" alt="">
                 <a href="/"><h2>UPDOWN GEEK</h2></a>
                 <nav>
                     <div class="container">
