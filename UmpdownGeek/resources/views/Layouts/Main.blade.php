@@ -22,8 +22,8 @@
         </head>
         <body>
             <header>
-                <img src="/img/Logot.jpeg" alt="">
-                <a href="/"><h2>Updown Geek</h2></a>
+                <img class="logo" src="/img/Logo.png" alt="">
+                <a href="/"><h2>UPDOWN GEEK</h2></a>
                 <nav>
                     <div class="container">
                         <ul class="nav-links">
