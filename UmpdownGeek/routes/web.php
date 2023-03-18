@@ -18,8 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/funcio/Cadastro', function () {
-    return view('Funcionario.Cadastro');
-});
-
+Route::get('/funcio/Cadastro', [CadastroController::class, 'cadastro']);
+#Mesma rota do formulario do cadastro permita guardar as informações no banco
+Route::post('/funcio', [CadastroController::class, 'store']);
 
