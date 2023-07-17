@@ -16,11 +16,11 @@ class CadastroController extends Controller
    #Faço request do form de cadastro, boto uma varivel que recebe a model digo que a coluna name da tabela cadastro é igual ao name do request
    public function store(request $request) {
 
-      $cadastro = new Cadastro;
+      $cadastros = new Cadastro;
 
-      $cadastro->Name = $request->Name;
+      $cadastros->Name = $request->Name;
 
-      $cadastro->save();
+      $cadastros->save();
 
       return redirect('/')->with('success', 'Dados enviados com sucesso!');
 
